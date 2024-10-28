@@ -1,8 +1,8 @@
-# Your Name Here
+# Emma Leyba
 # UWYO COSC 1010
-# Submission Date
-# Lab XX
-# Lab Section: 
+# 10-27-24
+# Lab 
+# Lab Section: 14
 # Sources, people worked with, help given to: 
 # your
 # comments
@@ -39,9 +39,16 @@ print("*"*75)
 
 num_sum = 0 
 
-print(f"Your final sum is {num_sum}")
+#while (True):
+#    if #User gives a number
+#    elif: #User types exxit
+#  else: # User typed something
+        
+#print(f"Your final sum is {num_sum}")
 
-print("*"*75)
+#print(f"Your final sum is {num_sum}")
+
+#print("*"*75)
 # Now you will be creating a two operand calculator
 # It will support the following operators: +,-,/,*,% 
 # So accepted input is of the form `operand operator operand` 
@@ -59,4 +66,49 @@ print("*"*75)
 # Print the result of the equation
 # Again, loop through prompting the user for input until `exit` in any casing is input 
 
+def get_factorial(upper_bound): 
+    """based on the upper bound"""
+    factorial = f"{upper_bound}"
+    return factorial()
+
+while(True):
+    upperBound = input("upper_bound: ")
+
+    if upper_bound.isdigital():
+            # Perform factorial
+            # for number in range(1, upperBound):
+            #   factorial =
+            # exit the loop
+    else:
+            # print an error to the user
+print(f"The result of the factorial based on the upper_bound is {factorial"}")
+
+if user_input .isdigit(): #Positive
+elif user_input[0[ -- "-" and user_input]]1:]
+
+while(True):
+    #get user input
+    operands = ["+", "-"]
+    for operand in operands:
+            if operand in user_input):
+                numbers = user_input.split(operand) # 5, 6
+                numbers[0] # 5
+                numbers[1] #6
+                #complete math
+                continue # Note: continue the outer whilee loop
+        print(errpor)
+
+
+txt = UpperBound
+
+UpperBound = UpperBound.isdigit()
+
+print(f"Your final sum is {num_sum}')")
+
+
+      while (True):
+        if #User gives a number
+        elif: #User types exxit
+        else: # User typed something
         
+        print(f"Your final sum is {num_sum}")
