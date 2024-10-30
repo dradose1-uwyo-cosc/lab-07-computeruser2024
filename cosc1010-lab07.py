@@ -19,9 +19,49 @@
 
 factorial = 1
 
-print(f"The result of the factorial based on the given bound is {factorial}")
 
-print("*"*75)
+
+#print("*"*75)
+
+
+message = input("Tell me a number and I will repeat it back to you:")
+print (message)
+
+
+#int_user_input  = int(message)
+#while int_user_input > 0:
+#    factorial = factorial * int_user_input
+#    int_user_input = int_user_input - 1
+
+#print(f"The result of the factorial based on the given bound is {factorial}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
 # Create a while loop that prompts a user for input of an integer values
 # Sum all inputs. When the user enters 'exit' (regardless of casing) end the loop
 # Upon ending the loop print the sum
@@ -37,7 +77,27 @@ print("*"*75)
 # All this together means you will have an intensive while loop that includes multiple if statements, likely with some nesting 
 # The sum should start at 0 
 
-num_sum = 0 
+
+while (True):
+#Get input from user
+    if user_input.isdigit(): #Positive
+        #Complete this
+    elif user_input[0} == '-" and user_input[1].]isdigit(): # Negative
+        num_sum -+ int(user_input[1:])
+    elif
+x
+x
+x
+====
+
+while(True):
+    #Get user input
+    user_input = "50 + 7"
+    operands = ["=", "-", "*","/", "%"]
+    message = ""
+while message !+ 'quit':
+    message = input(prompt)
+    print(quit)
 
 #while (True):
 #    if #User gives a number
@@ -66,49 +126,49 @@ num_sum = 0
 # Print the result of the equation
 # Again, loop through prompting the user for input until `exit` in any casing is input 
 
-def get_factorial(upper_bound): 
-    """based on the upper bound"""
-    factorial = f"{upper_bound}"
-    return factorial()
+# def get_factorial(upper_bound): 
+#     """based on the upper bound"""
+#     factorial = f"{upper_bound}"
+#     return factorial()
 
-while(True):
-    upperBound = input("upper_bound: ")
+# while(True):
+#     upperBound = input("upper_bound: ")
 
-    if upper_bound.isdigital():
-            # Perform factorial
-            # for number in range(1, upperBound):
-            #   factorial =
-            # exit the loop
-    else:
-            # print an error to the user
-print(f"The result of the factorial based on the upper_bound is {factorial"}")
+#     if upper_bound.isdigital():
+#             # Perform factorial
+#             # for number in range(1, upperBound):
+#             #   factorial =
+#             # exit the loop
+#     else:
+#             # print an error to the user
+# print(f"The result of the factorial based on the upper_bound is {factorial"}")
 
-if user_input .isdigit(): #Positive
-elif user_input[0[ -- "-" and user_input]]1:]
+# if user_input .isdigit(): #Positive
+# elif user_input[0[ -- "-" and user_input]]1:]
 
-while(True):
-    #get user input
-    operands = ["+", "-"]
-    for operand in operands:
-            if operand in user_input):
-                numbers = user_input.split(operand) # 5, 6
-                numbers[0] # 5
-                numbers[1] #6
-                #complete math
-                continue # Note: continue the outer whilee loop
-        print(errpor)
-
-
-txt = UpperBound
-
-UpperBound = UpperBound.isdigit()
-
-print(f"Your final sum is {num_sum}')")
+# while(True):
+#     #get user input
+#     operands = ["+", "-"]
+#     for operand in operands:
+#             if operand in user_input):
+#                 numbers = user_input.split(operand) # 5, 6
+#                 numbers[0] # 5
+#                 numbers[1] #6
+#                 #complete math
+#                 continue # Note: continue the outer whilee loop
+#         print(errpor)
 
 
-      while (True):
-        if #User gives a number
-        elif: #User types exxit
-        else: # User typed something
+# txt = UpperBound
+
+#UpperBound = UpperBound.isdigit()
+
+#print(f"Your final sum is {num_sum}')")
+
+
+#      while (True):
+#        if #User gives a number
+#        elif: #User types exxit
+#        else: # User typed something
         
-        print(f"Your final sum is {num_sum}")
+#       print(f"Your final sum is {num_sum}")
