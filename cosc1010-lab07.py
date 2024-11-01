@@ -77,36 +77,38 @@ print (message)
 # All this together means you will have an intensive while loop that includes multiple if statements, likely with some nesting 
 # The sum should start at 0 
 
-
+num_sum = 0
 while (True):
-#Get input from user
-    if user_input.isdigit(): #Positive
-        #Complete this
-    elif user_input[0} == '-" and user_input[1].]isdigit(): # Negative
-        num_sum -+ int(user_input[1:])
-    elif
-x
-x
-x
-====
+    # Get input from user
+    user_input = input('Enter a number to add (or exit): ')
+    if user_input.upper() == 'EXIT':
+        break
 
-while(True):
-    #Get user input
-    user_input = "50 + 7"
-    operands = ["=", "-", "*","/", "%"]
-    message = ""
-while message !+ 'quit':
-    message = input(prompt)
-    print(quit)
+    elif user_input.isdigit(): 
+        num_sum += int(user_input)
+    elif user_input[0] == '-' and user_input[1].isdigit(): # Negative
+        num_sum += int(user_input[1:])
 
-#while (True):
-#    if #User gives a number
-#    elif: #User types exxit
-#  else: # User typed something
+print(f"Your final sum is {num_sum}")
+
         
-#print(f"Your final sum is {num_sum}")
 
-#print(f"Your final sum is {num_sum}")
+
+# while(True):
+    # Get user input
+    # user_input = "50 + 7"
+    # operands = ["=", "-", "*","/", "%"]
+    # message = ""
+# while message != 'quit':
+  #  message = input(prompt)
+ #   print(quit)
+
+# while (True):
+# elif #User User types exit
+    #break
+# print(f"Your final sum is {num_sum}")
+
+
 
 #print("*"*75)
 # Now you will be creating a two operand calculator
